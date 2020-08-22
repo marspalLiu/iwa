@@ -1,0 +1,531 @@
+/* clear the default style*/
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { 
+	margin: 0px; 
+	padding: 0px;  
+	font-weight: normal; 
+}
+
+ul { 
+	list-style: none; 
+}
+
+img { 
+	border-style: none; 
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+select {
+	outline: none;
+	margin-left: 10px;
+	margin-right:10px;
+}
+button {
+	outline: none;
+}
+
+.clear-both{
+	clear: both;
+}
+
+a button{
+    width: 150px;
+    height: 40px;
+	display: block;
+	color: #ffffff;
+    margin: 0 auto;
+	background: #090723;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* body style */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  	background: linear-gradient(to right, #25c481, #25b7c4);
+}
+
+#container{
+	padding-bottom: 50px;
+}
+
+/* sign in*/
+#container h1, h2 {
+	text-align: center;
+}
+
+#signin {
+	margin: auto;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 30px;
+	text-align: center;	
+	box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+} 
+
+#signin h4 {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+/* Top banner */
+
+#banner {
+	padding: 10px 20px;
+	font-size: 22px;
+	overflow: hidden;
+	background-color: #090723;
+	color: #ffffff;
+	box-shadow: 0 9px 28px 8px rgba(0,0,0,.05);
+}
+
+#banner > img {
+	float: left;
+	width: 50px;
+}
+
+#banner img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+.nav{
+	height: 64px;
+	font-size: 22px;
+	line-height: 64px;
+	display: inline-block;
+}
+
+#nav_menu_block{
+	float: right;
+}
+
+#nav_menu_block ul{
+	display: flex;
+	list-style-type: none;
+}
+
+#nav_menu_block ul li{
+	padding: 0 15px;
+}
+
+#nav_menu_block ul li:hover{
+	color: #f4f4f4
+}
+
+/* filter block*/
+.filter{
+	height: 40px;
+    background: #f0f0f0;
+    padding: 15px 20px;
+	box-shadow: 0 9px 28px 8px rgba(0,0,0,.05);
+}
+.filter-content{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.filter-content select{
+	width: 150px;
+	height: 30px;
+	padding: 2px 5px;
+	border-radius: 15px;
+	position: relative;
+}
+
+.filter-content .filter-box{
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.fl{
+	float: left;
+}
+
+.tag-item{
+    width: 70px;
+    height: 35px;
+    color: #7f7f7f;
+	text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border-radius: 35px;
+    display: block;
+}
+
+.tag-item-selected{
+	background: red;
+    color: #fff;
+}
+
+/* page name*/
+.page-name{
+    width: 100%;
+    height: 74px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #091A52;
+    text-align: center; 
+	margin-top: 50px;
+}
+
+/* card block*/
+#card-block{
+	width: 1160px;
+	margin:20px auto;
+}
+
+.rec-cards{
+    padding-left: 53px;
+    transition: all .5s ease-in-out;
+}
+
+.rec-cards .exchange-icon{
+	/*float:left;*/
+	display: inline-block;
+	margin-right:35px;
+	margin-top: 100px;
+	vertical-align: top;
+}
+
+.rec-cards .rec-card{
+	/*float: left;*/
+	height:auto;
+    display: inline-block;
+	width: 330px;
+    background: rgba(0,0,0,.85);
+    margin-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+.rec-cards .rec-card .rec-title{
+	text-align: center;
+}
+
+.rec-cards .rec-card .rec-avatar {
+    text-align: center;
+	margin-top: 25px;
+	height:330px;
+}
+
+.avatar{
+    display: inline-block;
+}
+.avatar-middle {
+	width: 294px;
+    height: 294px;
+}
+.avatar img {
+	width: 100%;
+	height: 100%;
+    border-radius: 20px;
+}
+
+.rec-cards .rec-card .rec-title{
+	text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.rec-cards .rec-card .rec-content {
+    margin: 16px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.rec-cards .rec-card .rec-content ul.rec-lists {
+    height: 213px;
+    padding-left: 4px;
+    margin-top: 7px;
+}
+
+.rec-cards .rec-card .rec-content ul.rec-lists li{
+	height: 25px;
+    /*line-height: 50px;*/
+    text-align: left;
+ }
+ .rec-cards .rec-card .rec-content ul.rec-lists .description {
+	height:128px;
+ }
+.rec-cards .rec-card .card-action {
+    width: 100%;
+    border-top: 1px solid #aaa;
+}
+
+.rec-cards .rec-card .card-action ul li {
+    width: 49%;
+    float: left;
+    margin: 14px 0;
+    text-align: center;
+}
+
+.rec-cards .rec-card .card-action ul>li:not(:last-child) {
+    border-right: 1px solid #aaa;
+}
+
+/* chat block */
+
+.chat-block{
+	width: 1060px;
+	height: 800px;
+	margin: auto;
+	box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.chat-block .chat-contacts,.chat-block .chat-content,.content-header{
+	box-sizing: border-box;
+}
+
+.chat-block .chat-contacts{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background:rgb(209, 209, 235);
+	padding:10px 10px;
+	overflow-y: scroll;
+}
+
+.chat-block .chat-contacts ul li{
+	border-bottom: 1px solid #f7f7f7;
+	padding: 10px 5px;
+}
+
+.chat-block .chat-contacts ul li .contact-info{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.chat-block .chat-contacts ul li .contact-info .chat-avatar{
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+    vertical-align: middle;
+}
+
+.chat-name{
+	margin-left: 15px;
+}
+
+.chat-block .chat-contacts ul li .goods-info{
+	padding: 10px 5px;
+    vertical-align: middle;
+}
+
+.goods-info .my-good,.his-good{
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.goods-info .exchange-icon{
+	width: 18px;
+	height: 18px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.chat-block .chat-content,.chat-block .chat-content-default{
+	width: 75%;
+	height: 100%;
+	float: right;
+	background: #6D7ADA;
+}
+
+.chat-content .content-header{
+	height: 100px;
+	color: #FFFFFF;
+	font-size: 30px;
+	line-height: 50px;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 6px 10px;
+}
+
+.content-header-goods{
+	float: left;
+	font-size: 18px;
+}
+
+.content-header-avatar{
+	float: right;
+	margin-right: 20px;
+}
+
+.content-header-avatar .chat-avatar{
+	width: 50px;
+	height: auto;
+	float: right;
+	margin-right: 20px;
+}
+
+.chat-content .content-body{
+	width: 100%;
+	height: 550px;
+	overflow-y: scroll;
+}
+
+.chat-content .content-body ul{
+	padding-top:30px; 
+	padding-bottom:30px; 
+}
+
+.chat-content .content-body ul li{
+	padding: 10px 20px;
+}
+
+.chat-content .content-body ul li>div{
+	width: 300px;
+}
+
+.chat-content .content-body ul li img{
+	margin-bottom: 5px;
+}
+.chat-content .content-body ul li .right-content{
+	float: right;
+	margin-right: 40px;
+}
+
+.chat-content .content-body ul li .right-content img{
+	width: 34px;
+	height: auto;
+	float: right;
+}
+
+.chat-content .content-body ul li .content{
+	width:100%;
+	padding:5px 15px;
+	line-height:20px;
+	background:#FFFFFF;
+	border-radius:15px;
+}
+
+.chat-content .content-input{
+	height: 144px;
+	background: #FFFFFF;
+	position: relative;
+}
+.chat-content .content-input textarea{
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 0 0;
+	outline: none;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.chat-content .content-input button{
+	position: absolute;
+	padding: 15px 15px;
+	background: #090723;
+	color: #ffffff;
+}
+
+.chat-content .content-input #confirm-button{
+	right: 120px;
+	bottom: 0px;
+}
+
+.chat-content .content-input #reply-button{
+	right: 0px;
+	bottom: 0px;
+}
+
+/* others' item */
+section{
+  	margin: 50px;
+}
+
+table{
+  	width:100%;
+  	table-layout: fixed;
+}
+
+.tbl-header{
+  	background-color: rgba(255,255,255,0.3);
+}
+
+.tbl-content{
+  	/*height:300px;*/
+  	overflow-x:auto;
+  	margin-top: 0px;
+  	border: 1px solid rgba(255,255,255,0.3);
+}
+
+th{
+  	padding: 20px 15px;
+  	text-align: left;
+  	font-weight: 500;
+  	font-size: 12px;
+  	color: #fff;
+  	text-transform: uppercase;
+}
+
+td{
+  	padding: 15px;
+  	text-align: left;
+  	vertical-align:middle;
+  	font-weight: 300;
+  	font-size: 18px;
+	color: #fff;
+	overflow-wrap: break-word
+}
+
+tbody>tr:not(:last-child){
+	border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.contact-icon{
+	width: 36px;
+	height: auto;
+}
+
+/*contact-form*/
+.contact-form{
+	width: 1160px;
+	margin: auto;
+	text-align: center;
+	line-height:30px;
+}
+
+.contact-form textarea{
+	font-size: 25px;
+	line-height: 22px;
+	width: 100%;
+}
+
+.contact-form button{
+    width: 150px;
+    height: 40px;
+	display: block;
+	color: #ffffff;
+    margin: 0 auto;
+	background: #090723;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+

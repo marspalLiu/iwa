@@ -1,0 +1,44 @@
+/*table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 5px;
+}
+
+table input[type="text"] {
+	width: 100px;
+}
+
+table a {
+    border-style: none;
+}*/
+/*#container{
+	width: 1160px;
+	margin: auto;
+}*/
+
+#container h1, h2 {
+	text-align: center;
+}
+
+#signin {
+	margin: auto;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 30px;
+	text-align: center;	
+	box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+} 
+
+#signin h4 {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+}

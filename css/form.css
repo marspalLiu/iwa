@@ -1,0 +1,133 @@
+
+/*///// Form /////*/ 
+
+form {
+	padding: 20px;
+	font-size: 22px;
+}
+
+form .form-content{
+    width: 660px;
+    margin: 0 auto;
+}
+
+form .form-content .form-item{
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    clear: both;
+
+}
+
+form .form-content .form-item .notice-message{
+    color: red;
+}
+
+form .form-content .form-item .item-label{
+    width:180px;
+    float:left;
+    line-height:60px;
+    font-weight:bold;
+    text-align: left
+}
+form .form-content .form-item .item-label:after{
+    content: ":"
+}
+
+form .form-content .form-item .item-content{
+    float:left;
+    line-height:60px;
+    margin-left: 30px
+}
+
+form .form-content .form-item .form-input {
+    width:300px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:13px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+input[type="radio"] {
+	width:30px;
+}
+input.form-input {
+    background-color: white;
+}
+select.form-input {
+    background-color: white;
+}
+.form-button, #submit {
+    background: #090723;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div.error {
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 0 30% 0 30%;
+}
+
+.search {
+    width: 20%;
+    float:right;
+    display: flex;
+  }
+  
+.searchTerm {
+width: 100%;
+border: 3px solid #00B4CC;
+border-right: none;
+padding: 5px;
+height: 20px;
+border-radius: 5px 0 0 5px;
+outline: none;
+color: #9DBFAF;
+}
+
+.searchTerm:focus{
+color: #00B4CC;
+}
+
+.searchButton {
+width: auto;
+height: 36px;
+border: 1px solid #00B4CC;
+background: #00B4CC;
+text-align: center;
+color: #fff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 20px;
+}
+
+.wrap{
+width: 30%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.select {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    height:54px;
+}
+.noborder {
+    width: 300px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    padding: 13px 10px;
+    border: none;
+}
