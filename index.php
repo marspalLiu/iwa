@@ -1,5 +1,6 @@
 <?php
 	include("include/html-head.html");
+	phpinfo();
 ?>
 
 <div id="signin">
